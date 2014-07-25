@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Retrieves the inverse of matrix x from the global environment and if
+## it does not exist calculates it and stores it in the global environment
 
-## Write a short comment describing this function
+## Check to see if the inverse of the matrix exists
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Return cached data or calculate the inverse of matrix x
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
